@@ -3,12 +3,46 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Isomem</title>
+    <style>
+      * {
+          margin: 0;
+          padding: 0;
+      }
+      .bkgimg {
+        display: grid;
+        height: 100%;
+      }
+      .center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+      }
+      .topnav {
+        background-color: #adabc2;
+        overflow: hidden;
+        padding-left: 60px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      body {
+        background-color:#decdb6;
+      }
+      footer {
+        margin: 15px;
+      }
+  </style>
   </head>
   <body>
-    <main>
-        <h1>In search of Memories</h1>  
-    </main>
+      <div class="topnav">
+        <h1 style="color:#038080; font-size:50px; display:inline">ISOMEM </h1>
+        <h2 style="color:rgb(54, 52, 57); font-family:'Brush Script MT'; font-size:30px; display: inline">In search of Memories</h2>
+      </div>
+      <div class="bkgimg">
+        <img class="center-fit" src='mem-pic.png'>
+      </div>
   </body>
+  <footer class="footer">
+    <span style="float:right;">&copy; 2022 Isomem Inc.</span>
+  </footer>
 </html>
